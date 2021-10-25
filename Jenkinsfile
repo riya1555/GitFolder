@@ -9,7 +9,7 @@ pipeline {
  		}
  		stage("Unit test") {
  			steps {
- 				sh "python volume_cuboid_test.py"
+ 				sh "python3 volume_cuboid_test.py"
  			}
  		}
  	}
